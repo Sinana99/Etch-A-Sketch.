@@ -1,0 +1,52 @@
+.row {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: center;
+    width: auto;
+    height: auto;
+    overflow: hidden;
+    
+    
+
+}
+
+.unit {
+    flex: 1;
+   
+    border: solid 0px;
+    border-width: 1px !important;
+    flex: 1;
+    min-width: 6px;
+    min-height: 5px;
+    
+}
+
+
+.unit:hover {
+    background-color: blue;
+}
+
+
+.buttondiv {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+    gap: 10px
+}
+
+button {
+    padding: 20px 40px 20px 40px;
+}
+
+.main {
+   display: flex;
+    width: 1240px;
+    height: 755px;
+    margin: auto;
+    max-width: 1240px !important;
+    max-height: 755px !important;
+    justify-content: center;
+    /* overflow: hidden;*/
+}
+
